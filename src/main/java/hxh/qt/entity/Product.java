@@ -17,7 +17,7 @@ public class Product {
 	private String code;
 	private String name;
 	private String description;
-	private double price;
+	private float price;
 	@Column(name="in_stock")
 	private Integer inStock;
 	@Column(name="max_in_stock")
